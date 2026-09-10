@@ -1,0 +1,717 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Caja Verde | Gestión Integral de Residuos</title>
+<meta name="description" content="Caja Verde ofrece gestión integral de residuos para empresas en Chile: asesoría, infraestructura, retiros programados y disposición final, cumpliendo la Ley REP.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="grain-grid" aria-hidden="true"></div>
+<div class="ambient-global" aria-hidden="true">
+  <div class="blob" style="width:520px; height:520px; top:2%; right:-8%; background:radial-gradient(circle, rgba(46,111,69,.28), transparent 70%);"></div>
+  <div class="blob" style="width:420px; height:420px; top:55%; left:-8%; background:radial-gradient(circle, rgba(232,179,26,.2), transparent 70%); animation-delay:4s;"></div>
+  <div class="blob" style="width:380px; height:380px; top:85%; left:50%; background:radial-gradient(circle, rgba(62,142,134,.18), transparent 70%); animation-delay:8s;"></div>
+  <svg class="fx-leaf drift" style="top:58.0%; left:19.5%; width:41px; opacity:0.19; animation-duration:26s; animation-delay:5.0s; transform:rotate(308deg);" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#3E8E86"/></svg>
+  <svg class="fx-leaf drift" style="top:90.9%; left:47.1%; width:30px; opacity:0.26; animation-duration:17s; animation-delay:2.6s; transform:rotate(82deg);" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#3E8E86"/></svg>
+  <svg class="fx-leaf sway" style="top:44.6%; left:52.0%; width:30px; opacity:0.23; animation-duration:19s; animation-delay:6.4s; transform:rotate(206deg);" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#E8B31A"/></svg>
+  <svg class="fx-leaf sway" style="top:21.4%; left:41.9%; width:33px; opacity:0.14; animation-duration:29s; animation-delay:6.2s; transform:rotate(168deg);" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#92C239"/></svg>
+  <svg class="fx-leaf drift" style="top:39.7%; left:37.0%; width:37px; opacity:0.18; animation-duration:26s; animation-delay:4.2s; transform:rotate(237deg);" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#2E6F45"/></svg>
+  <svg class="fx-leaf drift" style="top:53.4%; left:33.8%; width:24px; opacity:0.22; animation-duration:16s; animation-delay:2.6s; transform:rotate(78deg);" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#3E8E86"/></svg>
+  <svg class="fx-leaf sway" style="top:43.3%; left:27.4%; width:28px; opacity:0.22; animation-duration:27s; animation-delay:8.3s; transform:rotate(334deg);" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#E8B31A"/></svg>
+  <svg class="fx-leaf drift" style="top:17.3%; left:81.2%; width:40px; opacity:0.24; animation-duration:18s; animation-delay:6.9s; transform:rotate(3deg);" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#3E8E86"/></svg>
+  <svg class="fx-leaf sway" style="top:7.5%; left:55.7%; width:41px; opacity:0.24; animation-duration:17s; animation-delay:6.8s; transform:rotate(312deg);" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#E8B31A"/></svg>
+  <svg class="fx-leaf drift" style="top:78.6%; left:14.3%; width:29px; opacity:0.23; animation-duration:30s; animation-delay:5.5s; transform:rotate(71deg);" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#92C239"/></svg>
+  <svg class="fx-leaf sway" style="top:94.8%; left:85.0%; width:34px; opacity:0.14; animation-duration:24s; animation-delay:5.5s; transform:rotate(179deg);" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#E8B31A"/></svg>
+  <svg class="fx-leaf sway" style="top:6.6%; left:27.5%; width:34px; opacity:0.17; animation-duration:18s; animation-delay:2.5s; transform:rotate(104deg);" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#2E6F45"/></svg>
+  <svg class="fx-leaf drift" style="top:12.0%; left:94.2%; width:34px; opacity:0.14; animation-duration:26s; animation-delay:9.8s; transform:rotate(90deg);" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#92C239"/></svg>
+  <svg class="fx-leaf sway" style="top:2.4%; left:38.6%; width:43px; opacity:0.22; animation-duration:16s; animation-delay:8.0s; transform:rotate(122deg);" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#E8B31A"/></svg>
+  <svg class="fx-leaf sway" style="top:47.2%; left:19.6%; width:42px; opacity:0.17; animation-duration:30s; animation-delay:1.3s; transform:rotate(176deg);" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#3E8E86"/></svg>
+  <svg class="fx-leaf drift" style="top:88.6%; left:39.1%; width:25px; opacity:0.2; animation-duration:19s; animation-delay:1.5s; transform:rotate(61deg);" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#92C239"/></svg>
+  <svg class="fx-leaf drift" style="top:34.6%; left:36.1%; width:38px; opacity:0.22; animation-duration:26s; animation-delay:8.2s; transform:rotate(262deg);" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#92C239"/></svg>
+  <svg class="fx-leaf drift" style="top:13.5%; left:52.9%; width:34px; opacity:0.22; animation-duration:27s; animation-delay:2.6s; transform:rotate(222deg);" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#3E8E86"/></svg>
+  <svg class="fx-leaf sway" style="top:45.6%; left:29.2%; width:25px; opacity:0.14; animation-duration:21s; animation-delay:7.4s; transform:rotate(224deg);" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#92C239"/></svg>
+  <svg class="fx-leaf drift" style="top:66.3%; left:26.6%; width:46px; opacity:0.25; animation-duration:28s; animation-delay:9.0s; transform:rotate(316deg);" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#92C239"/></svg>
+  <svg class="fx-leaf drift" style="top:2.3%; left:89.1%; width:45px; opacity:0.23; animation-duration:18s; animation-delay:4.9s; transform:rotate(325deg);" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#3E8E86"/></svg>
+  <svg class="fx-leaf drift" style="top:4.5%; left:83.7%; width:43px; opacity:0.22; animation-duration:25s; animation-delay:8.0s; transform:rotate(173deg);" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#2E6F45"/></svg>
+  <svg class="fx-leaf drift" style="top:15.4%; left:68.8%; width:37px; opacity:0.16; animation-duration:19s; animation-delay:3.6s; transform:rotate(329deg);" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#2E6F45"/></svg>
+  <svg class="fx-leaf drift" style="top:97.2%; left:70.7%; width:44px; opacity:0.15; animation-duration:30s; animation-delay:5.9s; transform:rotate(340deg);" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#92C239"/></svg>
+  <svg class="fx-leaf drift" style="top:45.0%; left:4.6%; width:30px; opacity:0.14; animation-duration:24s; animation-delay:9.3s; transform:rotate(170deg);" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#92C239"/></svg>
+  <svg class="fx-leaf drift" style="top:57.5%; left:46.7%; width:28px; opacity:0.14; animation-duration:16s; animation-delay:4.5s; transform:rotate(292deg);" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#2E6F45"/></svg>
+  <span class="fx-dot" style="top:98.4%; left:40.1%; width:4px; height:4px; background:#2E6F45; opacity:0.41; animation-duration:4s; animation-delay:1.7s;"></span>
+  <span class="fx-dot" style="top:53.0%; left:96.7%; width:5px; height:5px; background:#2E6F45; opacity:0.29; animation-duration:5s; animation-delay:4.3s;"></span>
+  <span class="fx-dot" style="top:39.1%; left:55.2%; width:4px; height:4px; background:#2E6F45; opacity:0.44; animation-duration:9s; animation-delay:4.5s;"></span>
+  <span class="fx-dot" style="top:92.7%; left:33.3%; width:3px; height:3px; background:#2E6F45; opacity:0.27; animation-duration:7s; animation-delay:5.4s;"></span>
+  <span class="fx-dot" style="top:47.0%; left:20.4%; width:4px; height:4px; background:#2E6F45; opacity:0.38; animation-duration:7s; animation-delay:2.6s;"></span>
+  <span class="fx-dot" style="top:91.7%; left:86.7%; width:3px; height:3px; background:#2E6F45; opacity:0.43; animation-duration:5s; animation-delay:2.0s;"></span>
+  <span class="fx-dot" style="top:4.8%; left:31.2%; width:5px; height:5px; background:#2E6F45; opacity:0.21; animation-duration:7s; animation-delay:0.8s;"></span>
+  <span class="fx-dot" style="top:59.1%; left:65.2%; width:5px; height:5px; background:#2E6F45; opacity:0.43; animation-duration:7s; animation-delay:3.7s;"></span>
+  <span class="fx-dot" style="top:97.0%; left:83.4%; width:3px; height:3px; background:#2E6F45; opacity:0.34; animation-duration:6s; animation-delay:0.5s;"></span>
+  <span class="fx-dot" style="top:65.8%; left:37.0%; width:3px; height:3px; background:#2E6F45; opacity:0.46; animation-duration:7s; animation-delay:0.3s;"></span>
+  <span class="fx-dot" style="top:6.6%; left:1.3%; width:4px; height:4px; background:#2E6F45; opacity:0.35; animation-duration:7s; animation-delay:5.0s;"></span>
+  <span class="fx-dot" style="top:90.8%; left:19.1%; width:6px; height:6px; background:#2E6F45; opacity:0.28; animation-duration:9s; animation-delay:1.3s;"></span>
+  <span class="fx-dot" style="top:59.4%; left:83.8%; width:4px; height:4px; background:#2E6F45; opacity:0.43; animation-duration:8s; animation-delay:4.0s;"></span>
+  <span class="fx-dot" style="top:30.1%; left:23.4%; width:3px; height:3px; background:#2E6F45; opacity:0.22; animation-duration:4s; animation-delay:4.3s;"></span>
+  <span class="fx-dot" style="top:2.0%; left:68.5%; width:5px; height:5px; background:#2E6F45; opacity:0.34; animation-duration:6s; animation-delay:3.7s;"></span>
+  <span class="fx-dot" style="top:14.4%; left:92.5%; width:4px; height:4px; background:#2E6F45; opacity:0.43; animation-duration:7s; animation-delay:4.5s;"></span>
+  <span class="fx-dot" style="top:39.1%; left:61.3%; width:6px; height:6px; background:#2E6F45; opacity:0.23; animation-duration:8s; animation-delay:0.4s;"></span>
+  <span class="fx-dot" style="top:67.3%; left:27.4%; width:5px; height:5px; background:#2E6F45; opacity:0.45; animation-duration:5s; animation-delay:4.6s;"></span>
+  <span class="fx-dot" style="top:55.4%; left:23.7%; width:6px; height:6px; background:#2E6F45; opacity:0.42; animation-duration:5s; animation-delay:5.5s;"></span>
+  <span class="fx-dot" style="top:6.3%; left:72.9%; width:3px; height:3px; background:#2E6F45; opacity:0.2; animation-duration:6s; animation-delay:4.9s;"></span>
+  <span class="fx-dot" style="top:16.5%; left:13.2%; width:5px; height:5px; background:#2E6F45; opacity:0.36; animation-duration:8s; animation-delay:5.3s;"></span>
+  <span class="fx-dot" style="top:97.0%; left:54.6%; width:3px; height:3px; background:#2E6F45; opacity:0.26; animation-duration:4s; animation-delay:3.4s;"></span>
+  <span class="fx-dot" style="top:82.0%; left:12.6%; width:4px; height:4px; background:#2E6F45; opacity:0.34; animation-duration:6s; animation-delay:1.1s;"></span>
+  <span class="fx-dot" style="top:19.2%; left:49.4%; width:6px; height:6px; background:#2E6F45; opacity:0.44; animation-duration:5s; animation-delay:2.2s;"></span>
+  <span class="fx-dot" style="top:87.9%; left:56.2%; width:4px; height:4px; background:#2E6F45; opacity:0.4; animation-duration:4s; animation-delay:5.9s;"></span>
+  <span class="fx-dot" style="top:4.7%; left:26.9%; width:4px; height:4px; background:#2E6F45; opacity:0.5; animation-duration:7s; animation-delay:1.5s;"></span>
+  <span class="fx-dot" style="top:85.5%; left:32.1%; width:5px; height:5px; background:#2E6F45; opacity:0.31; animation-duration:9s; animation-delay:2.3s;"></span>
+  <span class="fx-dot" style="top:23.1%; left:30.3%; width:5px; height:5px; background:#2E6F45; opacity:0.35; animation-duration:7s; animation-delay:5.9s;"></span>
+  <span class="fx-dot" style="top:16.5%; left:89.9%; width:3px; height:3px; background:#2E6F45; opacity:0.31; animation-duration:8s; animation-delay:2.6s;"></span>
+  <span class="fx-dot" style="top:88.0%; left:85.7%; width:5px; height:5px; background:#2E6F45; opacity:0.26; animation-duration:7s; animation-delay:5.6s;"></span>
+  <span class="fx-dot" style="top:21.5%; left:11.1%; width:6px; height:6px; background:#2E6F45; opacity:0.47; animation-duration:7s; animation-delay:5.3s;"></span>
+  <span class="fx-dot" style="top:2.1%; left:18.0%; width:4px; height:4px; background:#2E6F45; opacity:0.35; animation-duration:9s; animation-delay:2.4s;"></span>
+  <span class="fx-dot" style="top:91.4%; left:60.7%; width:3px; height:3px; background:#2E6F45; opacity:0.41; animation-duration:5s; animation-delay:4.7s;"></span>
+  <span class="fx-dot" style="top:55.5%; left:66.2%; width:5px; height:5px; background:#2E6F45; opacity:0.43; animation-duration:5s; animation-delay:5.5s;"></span>
+</div>
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <img src="img/logo.png" alt="Caja Verde" style="height:38px;width:auto;">
+    </a>
+    <nav class="nav-links">
+      <a href="index.html" aria-current="page">Inicio</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="trazaverde.html">TrazaVerde</a>
+    </nav>
+    <a href="#contacto" class="btn btn-primary">Contáctanos</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg">
+    <video autoplay muted loop playsinline webkit-playsinline="true" x5-playsinline="true" disablepictureinpicture disableremoteplayback preload="auto">
+      <source src="img/video-banner.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="hero-scrim"></div>
+  <div class="hero-decor" aria-hidden="true">
+    <svg class="fx-leaf drift" style="top:20%; left:8%; width:60px; opacity:.22; animation-duration:20s;" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#92C239"/></svg>
+    <svg class="fx-leaf sway" style="top:58%; left:18%; width:40px; opacity:.18; animation-duration:12s; animation-delay:1.5s;" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#E8B31A"/></svg>
+    <svg class="fx-leaf drift" style="top:12%; left:70%; width:34px; opacity:.16; animation-duration:24s; animation-delay:3s;" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#7FB86A"/></svg>
+    <svg class="fx-leaf sway" style="top:70%; left:60%; width:30px; opacity:.15; animation-duration:14s; animation-delay:2s;" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#92C239"/></svg>
+    <span class="fx-dot" style="top:17%; left:75%; width:5px; height:5px; background:#E8B31A; opacity:.5; animation-duration:9s;"></span>
+    <span class="fx-dot" style="top:76%; left:75%; width:4px; height:4px; background:#E8B31A; opacity:.42; animation-duration:8s; animation-delay:3.6s;"></span>
+    <span class="fx-dot" style="top:42%; left:61%; width:6px; height:6px; background:#E8B31A; opacity:.6; animation-duration:6s; animation-delay:1.5s;"></span>
+    <span class="fx-dot" style="top:25%; left:91%; width:4px; height:4px; background:#E8B31A; opacity:.29; animation-duration:6s; animation-delay:2.6s;"></span>
+  </div>
+  <div class="hero-floats" aria-hidden="true">
+    <div class="float-card" style="right:8%; top:18%;">
+      <span class="tag">Certificado</span>
+      <div class="title">Disposición final</div>
+      <div class="sub">Documento por cada retiro realizado</div>
+    </div>
+    <div class="float-card" style="right:4%; top:42%;">
+      <span class="tag">Trazabilidad</span>
+      <div class="title">Transporte autorizado</div>
+      <div class="sub">Cumplimiento con la Ley REP</div>
+    </div>
+  </div>
+  <div class="hero-inner container">
+    <span class="eyebrow">Gestión de residuos para empresas</span>
+    <h1>Gestión integral<br>de residuos</h1>
+    <p class="lede">Acorde a la normativa vigente, sin necesidad de equipamientos especiales ni grandes infraestructuras. Lo hacemos simple y a bajo costo.</p>
+    <div class="waste-strip">
+      <a href="servicios.html" style="background:var(--r-basura);"><span class="dot"></span>Basura</a>
+      <a href="servicios.html" style="background:var(--r-peligrosos);"><span class="dot"></span>Peligrosos</a>
+      <a href="servicios.html" style="background:var(--r-vidrios);"><span class="dot"></span>Orgánicos</a>
+      <a href="servicios.html" style="background:var(--verde);"><span class="dot"></span>No peligrosos</a>
+      <a href="servicios.html" style="background:var(--teal);"><span class="dot"></span>Chatarra electrónica</a>
+    </div>
+  </div>
+</section>
+
+<div class="rule-brand reveal-brand"><span></span><span></span><span></span><span></span></div>
+
+<!-- STAT BAND -->
+<section class="stat-band">
+  <div class="hero-decor" aria-hidden="true">
+    <svg class="fx-leaf sway" style="top:20%; left:85%; width:30px; opacity:.16;" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#92C239"/></svg>
+    <span class="fx-dot" style="top:60%; left:40%; width:4px; height:4px; background:#E8B31A; opacity:.4; animation-duration:6s;"></span>
+    <span class="fx-dot" style="top:30%; left:70%; width:4px; height:4px; background:#E8B31A; opacity:.35; animation-duration:7s; animation-delay:1.5s;"></span>
+  </div>
+  <div class="container">
+    <div class="stat">
+      <span class="num">14</span>
+      <span class="label">años en la industria</span>
+    </div>
+    <div class="stat">
+      <span class="num">150+</span>
+      <span class="label">clientes activos que validan nuestro servicio</span>
+    </div>
+  </div>
+</section>
+
+<!-- CÓMO FUNCIONA -->
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Cómo funciona</span>
+      <h2>Tres pasos entre tu residuo y su disposición final</h2>
+    </div>
+    <div class="step-flow">
+      <div class="step-connector"><div class="fill"></div></div>
+      <div class="step">
+        <div class="ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 21V9l8-6 8 6v12"/><path d="M9 21v-6h6v6"/></svg></div>
+        <span class="num-tag">01 · Asesoría</span>
+        <h3>Evaluamos tu operación</h3>
+        <p>Revisamos qué tipos de residuo generas y cómo hoy se están manejando, sin costo ni compromiso.</p>
+      </div>
+      <div class="step">
+        <div class="ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14a2 2 0 01-2 2H8a2 2 0 01-2-2L5 6"/></svg></div>
+        <span class="num-tag">02 · Infraestructura y retiro</span>
+        <h3>Instalamos y retiramos</h3>
+        <p>Contenedores, atriles o jaulas según tu volumen, con <strong>retiros programados</strong> y transporte autorizado.</p>
+      </div>
+      <div class="step">
+        <div class="ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg></div>
+        <span class="num-tag">03 · Trazabilidad</span>
+        <h3>Certificamos cada retiro</h3>
+        <p>Cada movimiento queda documentado, con <strong>certificado de disposición final</strong> y cumplimiento de la Ley REP.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FRANJA DE FOTO -->
+<div class="photo-band">
+  <img src="img/acopio.png" alt="Acopio de material antes del retiro">
+  <span class="photo-caption">Acopio de material antes del retiro — cada carga queda registrada</span>
+</div>
+
+<!-- INTRO / CONTACTO -->
+<section class="section" id="contacto">
+  <div class="container intro-grid">
+    <div class="reveal">
+      <span class="eyebrow" style="color:var(--verde);">Cómo trabajamos</span>
+      <h2 style="margin:14px 0 20px;">Una solución hecha a la medida de tu operación</h2>
+      <p>Ofrecemos una solución integral en <strong>gestión de residuos</strong>, diseñada para satisfacer las necesidades específicas de nuestros clientes.</p>
+      <div class="tag-row">
+        <span>Asesoría</span>
+        <span>Infraestructura</span>
+        <span>Retiros programados</span>
+        <span>Disposición final</span>
+      </div>
+      <div class="benefit-grid">
+        <div class="benefit">
+          <div class="ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg></div>
+          <div><strong>Sin equipamientos especiales</strong><span>Trabajamos con la infraestructura que ya tienes.</span></div>
+        </div>
+        <div class="benefit">
+          <div class="ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg></div>
+          <div><strong>Sin grandes infraestructuras</strong><span>Nos adaptamos al espacio disponible.</span></div>
+        </div>
+        <div class="benefit">
+          <div class="ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg></div>
+          <div><strong>Retiro programado</strong><span>Frecuencia acorde al volumen que generas.</span></div>
+        </div>
+        <div class="benefit">
+          <div class="ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg></div>
+          <div><strong>Certificado por retiro</strong><span>Respaldo documental de cada movimiento.</span></div>
+        </div>
+      </div>
+    </div>
+    <form class="wizard reveal" action="#" method="POST">
+      <div class="wizard-callout">
+        <strong>Lo que más ayuda a calibrar nuestra propuesta</strong>
+        Adjunta 3-4 fotos del punto de acopio cuando te contactemos por correo.
+      </div>
+
+      <div class="wizard-progress">
+        <div class="dot">1</div><div class="line"><div class="fill"></div></div>
+        <div class="dot">2</div><div class="line"><div class="fill"></div></div>
+        <div class="dot">3</div><div class="line"><div class="fill"></div></div>
+        <div class="dot">4</div>
+      </div>
+
+      <!-- PASO 1: Tu empresa -->
+      <div class="wizard-step">
+        <h4>Tu empresa</h4>
+        <div class="field"><label for="razon-social">Razón social</label><input id="razon-social" name="razon_social" type="text" required></div>
+        <div class="field"><label for="rut">RUT</label><input id="rut" name="rut" type="text" required></div>
+        <div class="field"><label for="direccion">Dirección de retiro (calle y número)</label><input id="direccion" name="direccion" type="text" required></div>
+      </div>
+
+      <!-- PASO 2: Contacto -->
+      <div class="wizard-step">
+        <h4>Contacto</h4>
+        <div class="field"><label for="contacto">Nombre de contacto</label><input id="contacto" name="contacto" type="text" required></div>
+        <div class="field"><label for="celular">Celular de contacto</label><input id="celular" name="celular" type="tel" required></div>
+        <div class="field"><label for="email-contacto">Email de contacto</label><input id="email-contacto" name="email_contacto" type="email" required></div>
+      </div>
+
+      <!-- PASO 3: Tus residuos -->
+      <div class="wizard-step">
+        <h4>Tus residuos</h4>
+        <div class="field">
+          <label>Tipo(s) de residuo</label>
+          <div class="check-group">
+            <label class="check-item"><input type="checkbox" name="tipo_residuo" value="No peligrosos">No peligrosos</label>
+            <label class="check-item"><input type="checkbox" name="tipo_residuo" value="Chatarra electrónica">Chatarra electrónica</label>
+            <label class="check-item"><input type="checkbox" name="tipo_residuo" value="Orgánicos">Orgánicos</label>
+            <label class="check-item"><input type="checkbox" name="tipo_residuo" value="Basura general">Basura general</label>
+            <label class="check-item"><input type="checkbox" name="tipo_residuo" value="RESPEL">RESPEL</label>
+            <label class="check-item"><input type="checkbox" name="tipo_residuo" value="Sólidos no peligrosos">Sólidos no peligrosos</label>
+          </div>
+        </div>
+        <div class="field"><label for="detalle-residuos">Detalle de los residuos (opcional)</label><input id="detalle-residuos" name="detalle_residuos" type="text"></div>
+        <div class="field">
+          <label>Frecuencia estimada</label>
+          <div class="check-group">
+            <label class="check-item"><input type="radio" name="frecuencia" value="Puntual">Puntual</label>
+            <label class="check-item"><input type="radio" name="frecuencia" value="Semanal">Semanal</label>
+            <label class="check-item"><input type="radio" name="frecuencia" value="Mensual">Mensual</label>
+            <label class="check-item"><input type="radio" name="frecuencia" value="No sé">No sé</label>
+          </div>
+        </div>
+        <div class="field">
+          <label>Volumen aproximado mensual</label>
+          <div class="check-group">
+            <label class="check-item"><input type="radio" name="volumen" value="1 m3">1 m³</label>
+            <label class="check-item"><input type="radio" name="volumen" value="3 m3">3 m³</label>
+            <label class="check-item"><input type="radio" name="volumen" value="6 m3">6 m³</label>
+            <label class="check-item"><input type="radio" name="volumen" value="9 m3">9 m³</label>
+            <label class="check-item"><input type="radio" name="volumen" value="12 m3">12 m³</label>
+          </div>
+          <div class="field-other-inline" style="margin-top:8px;">
+            <label class="check-item"><input type="radio" name="volumen" value="otro">Otro</label>
+            <input type="text" name="volumen_otro" placeholder="Especifica m³">
+          </div>
+        </div>
+      </div>
+
+      <!-- PASO 4: Logística y normativa -->
+      <div class="wizard-step">
+        <h4>Logística y normativa</h4>
+        <div class="field">
+          <label>¿Cómo están acopiando los residuos hoy?</label>
+          <div class="check-group">
+            <label class="check-item"><input type="checkbox" name="acopio" value="Bolsas">Bolsas</label>
+            <label class="check-item"><input type="checkbox" name="acopio" value="Contenedores">Contenedores</label>
+            <label class="check-item"><input type="checkbox" name="acopio" value="Maxisacas">Maxisacas</label>
+            <label class="check-item"><input type="checkbox" name="acopio" value="Tolva">Tolva</label>
+            <label class="check-item"><input type="checkbox" name="acopio" value="A granel">A granel</label>
+          </div>
+          <div class="field-other-inline" style="margin-top:8px;">
+            <label class="check-item"><input type="checkbox" name="acopio" value="otro">Otro</label>
+            <input type="text" name="acopio_otro" placeholder="Especifica">
+          </div>
+        </div>
+        <div class="field">
+          <label>¿Tienen cómo cargar los residuos al camión?</label>
+          <div class="check-group">
+            <label class="check-item"><input type="radio" name="carga_camion" value="Sí">Sí</label>
+            <label class="check-item"><input type="radio" name="carga_camion" value="No">No</label>
+          </div>
+        </div>
+        <div class="field">
+          <label>¿Declaran en la Ley REP?</label>
+          <div class="check-group">
+            <label class="check-item"><input type="radio" name="declara_rep" value="Sí">Sí</label>
+            <label class="check-item"><input type="radio" name="declara_rep" value="No">No</label>
+            <label class="check-item"><input type="radio" name="declara_rep" value="No sé">No sé</label>
+          </div>
+        </div>
+        <div class="field">
+          <label>¿Tiene proveedor actual?</label>
+          <div class="check-group">
+            <label class="check-item"><input type="radio" name="proveedor_actual" value="Sí">Sí</label>
+            <label class="check-item"><input type="radio" name="proveedor_actual" value="No">No</label>
+          </div>
+        </div>
+        <div class="field"><label for="proveedor-cual">Si tiene proveedor actual, ¿cuál? (opcional)</label><input id="proveedor-cual" name="proveedor_cual" type="text"></div>
+        <div class="field"><label for="altura-estacionamiento">Altura del estacionamiento (ej: 3,5 mts)</label><input id="altura-estacionamiento" name="altura_estacionamiento" type="text"></div>
+      </div>
+
+      <div class="wizard-nav">
+        <button type="button" class="btn btn-outline wizard-back">Atrás</button>
+        <button type="submit" class="btn btn-primary wizard-next">Siguiente</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- RESIDUOS QUE GESTIONAMOS -->
+<section class="section section-crema">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow" style="color:var(--verde);">Lo que retiramos</span>
+      <h2>Cada material tiene su propio circuito</h2>
+      <p>Segregamos, retiramos y trazamos cada tipo de residuo según su propio protocolo de manejo y disposición final.</p>
+    </div>
+    <div class="waste-gallery reveal-stagger">
+      <div class="waste-card">
+        <div class="photo"><img src="img/waste-glass.jpg" alt="Vidrio recolectado para reciclaje"></div>
+        <div class="bar" style="background:var(--r-vidrios);"></div>
+        <div class="cap"><div class="kind">Vidrios</div><div class="desc">Acopio y retiro para reciclaje.</div></div>
+      </div>
+      <div class="waste-card">
+        <div class="photo"><img src="img/waste-plastic.jpg" alt="Plástico compactado en fardos"></div>
+        <div class="bar" style="background:var(--r-plastico);"></div>
+        <div class="cap"><div class="kind">Plástico</div><div class="desc">Compactado y enviado a valorización.</div></div>
+      </div>
+      <div class="waste-card">
+        <div class="photo"><img src="img/waste-paper.jpg" alt="Papel y documentos para reciclaje"></div>
+        <div class="bar" style="background:var(--r-papel);"></div>
+        <div class="cap"><div class="kind">Papel y cartón</div><div class="desc">Incluye destrucción certificada de documentos.</div></div>
+      </div>
+      <div class="waste-card">
+        <div class="photo"><img src="img/waste-batteries.jpg" alt="Punto de acopio de pilas y peligrosos"></div>
+        <div class="bar" style="background:var(--r-peligrosos);"></div>
+        <div class="cap"><div class="kind">Peligrosos</div><div class="desc">Puntos de acopio y disposición final autorizada.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRAZABILIDAD (dato real, sin cifras inventadas) -->
+<section class="section section-ink">
+  <div class="hero-decor" aria-hidden="true">
+    <svg class="fx-leaf sway" style="top:15%; left:88%; width:34px; opacity:.15;" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#92C239"/></svg>
+    <span class="fx-dot" style="top:70%; left:10%; width:4px; height:4px; background:#E8B31A; opacity:.4; animation-duration:7s;"></span>
+  </div>
+  <div class="container intro-grid container-wide" style="align-items:center;">
+    <div class="reveal">
+      <span class="eyebrow">Trazabilidad</span>
+      <h2 style="margin:14px 0 20px;">Cada retiro queda documentado</h2>
+      <p style="color:#C9D0C4; font-size:1.05rem; margin-bottom:16px;">No entregamos solo el retiro: entregamos el respaldo. Documento tributario, certificado de disposición final y trazabilidad garantizada, con cumplimiento de la Ley REP en cada movimiento.</p>
+    </div>
+    <div class="data-card reveal">
+      <div class="dc-head">
+        <span class="dc-title">Registro de retiro · categorías trazadas</span>
+        <span class="dc-badge">REP</span>
+      </div>
+      <div class="data-row" data-pct="78">
+        <span class="yr" style="color:var(--r-basura);">■</span>
+        <span style="flex:1; font-family:var(--font-mono); font-size:.82rem; color:#E4E8E1;">Basura</span>
+        <div class="bar-track"><div class="bar-fill" style="background:var(--r-basura);"></div></div>
+      </div>
+      <div class="data-row" data-pct="42">
+        <span class="yr" style="color:var(--r-peligrosos);">■</span>
+        <span style="flex:1; font-family:var(--font-mono); font-size:.82rem; color:#E4E8E1;">Peligrosos</span>
+        <div class="bar-track"><div class="bar-fill" style="background:var(--r-peligrosos);"></div></div>
+      </div>
+      <div class="data-row" data-pct="65">
+        <span class="yr" style="color:var(--r-vidrios);">■</span>
+        <span style="flex:1; font-family:var(--font-mono); font-size:.82rem; color:#E4E8E1;">Vidrios</span>
+        <div class="bar-track"><div class="bar-fill" style="background:var(--r-vidrios);"></div></div>
+      </div>
+      <div class="data-row" data-pct="90">
+        <span class="yr" style="color:var(--r-papel);">■</span>
+        <span style="flex:1; font-family:var(--font-mono); font-size:.82rem; color:#E4E8E1;">Papel y cartón</span>
+        <div class="bar-track"><div class="bar-fill" style="background:var(--r-papel);"></div></div>
+      </div>
+      <div class="data-row" data-pct="55">
+        <span class="yr" style="color:var(--r-plastico);">■</span>
+        <span style="flex:1; font-family:var(--font-mono); font-size:.82rem; color:#E4E8E1;">Plástico</span>
+        <div class="bar-track"><div class="bar-fill" style="background:var(--r-plastico);"></div></div>
+      </div>
+      <div class="dc-foot">Cada categoría queda con perfil de origen, destino y documento asociado.<br><em style="opacity:.7; font-style:normal;">Largos de ejemplo — se actualizan con tus datos reales.</em></div>
+    </div>
+  </div>
+</section>
+
+<!-- DOS LADOS DEL CIRCUITO -->
+<section class="section section-verde">
+  <div class="hero-decor" aria-hidden="true">
+    <svg class="fx-leaf drift" style="top:12%; left:8%; width:50px; opacity:.3;" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#fff"/></svg>
+    <svg class="fx-leaf sway" style="top:65%; left:88%; width:38px; opacity:.28; animation-delay:2s;" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#E8B31A"/></svg>
+    <span class="fx-dot" style="top:30%; left:75%; width:5px; height:5px; background:#fff; opacity:.5; animation-duration:6s;"></span>
+    <span class="fx-dot" style="top:75%; left:20%; width:4px; height:4px; background:#fff; opacity:.4; animation-duration:7s; animation-delay:2s;"></span>
+  </div>
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow" style="color:var(--verde);">De dónde sale y a dónde va</span>
+      <h2>Dos lados del mismo circuito</h2>
+    </div>
+    <div class="audience-grid reveal-stagger">
+      <div class="audience-card">
+        <div class="ph"><img src="img/foto1.png" alt="Tu empresa: instalación y retiro"></div>
+        <div class="body">
+          <span class="kicker">Tu empresa</span>
+          <h3>Lo que instalamos y retiramos</h3>
+          <p>Industrias, oficinas, corporativos y eventos — cada operación con su propio protocolo de segregación.</p>
+          <ul>
+            <li>Contenedores, atriles y jaulas a medida</li>
+            <li>Retiros programados y transporte autorizado</li>
+            <li>Trazabilidad con cumplimiento de la Ley REP</li>
+          </ul>
+        </div>
+      </div>
+      <div class="audience-card">
+        <div class="ph"><img src="img/foto2.png" alt="El residuo: proceso posterior al retiro"></div>
+        <div class="body">
+          <span class="kicker">El residuo</span>
+          <h3>Lo que pasa después del retiro</h3>
+          <p>Cada material sigue su propio proceso de valorización, según su tipo y condición.</p>
+          <ul>
+            <li>Reciclaje y compostaje</li>
+            <li>Valorización energética</li>
+            <li>Destrucción certificada de material</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CIRCUITO CIRCULAR -->
+<section class="section">
+  <div class="container">
+    <div class="section-head center reveal" style="margin-left:auto; margin-right:auto; text-align:center;">
+      <span class="eyebrow" style="color:var(--verde);">El circuito</span>
+      <h2>De residuo a nuevo recurso</h2>
+    </div>
+    <div class="loop-panel reveal">
+      <div class="loop-glow" aria-hidden="true"></div>
+      <svg viewBox="0 0 680 500" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <marker id="arrowh" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+            <path d="M0,0 L10,5 L0,10 Z" fill="#B7D99A"/>
+          </marker>
+        </defs>
+        <g class="loop-rotate">
+          <circle cx="340" cy="250" r="140" fill="none" stroke="#26382C" stroke-width="1.5" stroke-dasharray="1 8" stroke-linecap="round"/>
+          <path d="M340,110 A140,140 0 0 1 480,250" fill="none" stroke="#92C239" stroke-width="4" stroke-linecap="round" marker-end="url(#arrowh)"/>
+          <path d="M480,250 A140,140 0 0 1 340,390" fill="none" stroke="#3E8E86" stroke-width="4" stroke-linecap="round" marker-end="url(#arrowh)"/>
+          <path d="M340,390 A140,140 0 0 1 200,250" fill="none" stroke="#E8B31A" stroke-width="4" stroke-linecap="round" marker-end="url(#arrowh)"/>
+          <path d="M200,250 A140,140 0 0 1 340,110" fill="none" stroke="#EDEFE8" stroke-width="4" stroke-linecap="round" marker-end="url(#arrowh)"/>
+        </g>
+
+        <text x="340" y="246" text-anchor="middle" class="loop-center-title">Economía</text>
+        <text x="340" y="268" text-anchor="middle" class="loop-center-title">circular</text>
+
+        <g>
+          <circle cx="340" cy="110" r="20" fill="#12261A" stroke="#92C239" stroke-width="2.5"/>
+          <path d="M340 102l6 11h-12z" fill="#92C239"/>
+          <text x="340" y="58" text-anchor="middle" class="loop-label">Retiro</text>
+          <text x="340" y="78" text-anchor="middle" class="loop-sub">Programado, transporte autorizado</text>
+        </g>
+        <g>
+          <circle cx="480" cy="250" r="20" fill="#12261A" stroke="#3E8E86" stroke-width="2.5"/>
+          <rect x="472" y="242" width="16" height="16" rx="3" fill="#3E8E86"/>
+          <text x="580" y="246" text-anchor="middle" class="loop-label">Segregación</text>
+          <text x="580" y="266" text-anchor="middle" class="loop-sub">Por tipo y protocolo</text>
+        </g>
+        <g>
+          <circle cx="340" cy="390" r="20" fill="#12261A" stroke="#E8B31A" stroke-width="2.5"/>
+          <circle cx="340" cy="390" r="6" fill="#E8B31A"/>
+          <text x="340" y="438" text-anchor="middle" class="loop-label">Valorización</text>
+          <text x="340" y="458" text-anchor="middle" class="loop-sub">Reciclaje, compostaje, energía</text>
+        </g>
+        <g>
+          <circle cx="200" cy="250" r="20" fill="#12261A" stroke="#EDEFE8" stroke-width="2.5"/>
+          <path d="M192 250a8 8 0 1016 0 8 8 0 00-16 0z" fill="none" stroke="#EDEFE8" stroke-width="2"/>
+          <text x="100" y="246" text-anchor="middle" class="loop-label">Nuevo recurso</text>
+          <text x="100" y="266" text-anchor="middle" class="loop-sub">Vuelve a circular</text>
+        </g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST BADGE -->
+<section class="section section-verde">
+  <div class="hero-decor" aria-hidden="true">
+    <svg class="fx-leaf drift" style="top:20%; left:85%; width:44px; opacity:.3;" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#fff"/></svg>
+    <svg class="fx-leaf sway" style="top:70%; left:10%; width:32px; opacity:.26; animation-delay:3s;" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#92C239"/></svg>
+    <span class="fx-dot" style="top:35%; left:25%; width:4px; height:4px; background:#fff; opacity:.4; animation-duration:7s;"></span>
+  </div>
+  <div class="container">
+    <div class="trust-badge reveal">
+      <div class="check">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>
+      </div>
+      <div>
+        <h3>Transporte y disposición autorizada, en serio</h3>
+        <p>Cada retiro se hace con transporte autorizado y cumplimiento de la Ley REP — no es un sello decorativo, es la base de cada contrato.</p>
+        <p>El historial de cada cliente respalda su propia trazabilidad, no la de otro.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIOS -->
+<section class="section">
+  <div class="container">
+    <div class="section-head center reveal" style="margin-left:auto; margin-right:auto; text-align:center;">
+      <span class="eyebrow" style="color:var(--verde);">Lo que dicen nuestros clientes</span>
+      <h2>Confianza construida en terreno</h2>
+    </div>
+    <div class="testi-slider reveal">
+      <div class="testi-track">
+        <div class="testi">
+          <div class="testi-head">
+            <div class="testi-avatar">BS</div>
+            <div>
+              <div class="who">Benjamín Sánchez</div>
+              <div class="role">Facility Coordinator · adidas Account, Cushman &amp; Wakefield</div>
+            </div>
+          </div>
+          <blockquote>Con Caja Verde, hemos logrado ordenar y aumentar la cantidad de material que reciclamos. Su colaboración es excelente, siempre están disponibles para atender nuestras solicitudes y ofrecen soluciones flexibles y alcanzables tanto operativa como económicamente. Sin duda recomendaría sus servicios a otras empresas.</blockquote>
+        </div>
+        <div class="testi">
+          <div class="testi-head">
+            <div class="testi-avatar">EF</div>
+            <div>
+              <div class="who">Edgar Faúndez</div>
+              <div class="role">Jefe de Planta · Flip Chips</div>
+            </div>
+          </div>
+          <blockquote>Caja Verde ha sido un socio comprometido con la sostenibilidad, que se adapta a nuestras necesidades y cambios normativos. Su servicio es ordenado y eficiente, con residuos segmentados y contenedores personalizados con nuestros logotipos. Después de casi 3 años sin problemas, puedo decir que han sido un socio confiable.</blockquote>
+        </div>
+        <div class="testi">
+          <div class="testi-head">
+            <div class="testi-avatar">MH</div>
+            <div>
+              <div class="who">Marian Hernández</div>
+              <div class="role">Jefa de Planificación Comercial · Confecciones TOP</div>
+            </div>
+          </div>
+          <blockquote>Gracias a Caja Verde, hemos logrado mantener un orden en nuestro patio trasero y en la reportería para cumplir con la Ley REP. Su colaboración es precisa y eficiente, nos ayudan con todo lo que necesitamos para el monitoreo y gestión de residuos. Sin duda los recomendaría a otras empresas.</blockquote>
+        </div>
+      </div>
+    </div>
+    <div class="testi-dots">
+      <button class="active" aria-label="Testimonio 1"></button>
+      <button aria-label="Testimonio 2"></button>
+      <button aria-label="Testimonio 3"></button>
+    </div>
+  </div>
+</section>
+
+<!-- CLIENTES -->
+<section class="section section-crema clients-wrap">
+  <div class="container">
+    <div class="section-head center reveal" style="margin-left:auto; margin-right:auto; text-align:center;">
+      <span class="eyebrow" style="color:var(--verde);">Confían en nosotros</span>
+      <h2>Algunos de nuestros clientes</h2>
+    </div>
+        <div class="partner-marquee reveal">
+      <div class="partner-track">
+        <div class="logo-box"><img src="img/euromonitorlogo.png" alt="Euromonitor International" loading="lazy"></div>
+        <div class="logo-box"><img src="img/logo-arauco.png" alt="Arauco" loading="lazy"></div>
+        <div class="logo-box"><img src="img/logoelecchile.png" alt="Elecnor Chile" loading="lazy"></div>
+        <div class="logo-box"><img src="img/logo-archdaly.png" alt="ArchDaily" loading="lazy"></div>
+        <div class="logo-box"><img src="img/logo-promarco-2.png" alt="Promarco" loading="lazy"></div>
+        <div class="logo-box"><img src="img/TPF.png" alt="TPF Ingeniería" loading="lazy"></div>
+        <div class="logo-box"><img src="img/ebco-2.png" alt="EBCO" loading="lazy"></div>
+        <div class="logo-box"><img src="img/Barros-y-Errazuriz-2.png" alt="B&E" loading="lazy"></div>
+        <div class="logo-box"><img src="img/dipres-3.png" alt="DIPRES" loading="lazy"></div>
+        <div class="logo-box"><img src="img/edf-renewable.png" alt="EDF Renewables" loading="lazy"></div>
+        <div class="logo-box"><img src="img/Logo-intexa.png" alt="Intexa" loading="lazy"></div>
+        <div class="logo-box"><img src="img/logo-nuevo-dla-mod.png" alt="DLA Piper" loading="lazy"></div>
+        <div class="logo-box"><img src="img/top-mod.png" alt="TOP" loading="lazy"></div>
+        <span class="name">IES</span>
+        <div class="logo-box"><img src="img/euromonitorlogo.png" alt="Euromonitor International" loading="lazy"></div>
+        <div class="logo-box"><img src="img/logo-arauco.png" alt="Arauco" loading="lazy"></div>
+        <div class="logo-box"><img src="img/logoelecchile.png" alt="Elecnor Chile" loading="lazy"></div>
+        <div class="logo-box"><img src="img/logo-archdaly.png" alt="ArchDaily" loading="lazy"></div>
+        <div class="logo-box"><img src="img/logo-promarco-2.png" alt="Promarco" loading="lazy"></div>
+        <div class="logo-box"><img src="img/TPF.png" alt="TPF Ingeniería" loading="lazy"></div>
+        <div class="logo-box"><img src="img/ebco-2.png" alt="EBCO" loading="lazy"></div>
+        <div class="logo-box"><img src="img/Barros-y-Errazuriz-2.png" alt="B&E" loading="lazy"></div>
+        <div class="logo-box"><img src="img/dipres-3.png" alt="DIPRES" loading="lazy"></div>
+        <div class="logo-box"><img src="img/edf-renewable.png" alt="EDF Renewables" loading="lazy"></div>
+        <div class="logo-box"><img src="img/Logo-intexa.png" alt="Intexa" loading="lazy"></div>
+        <div class="logo-box"><img src="img/logo-nuevo-dla-mod.png" alt="DLA Piper" loading="lazy"></div>
+        <div class="logo-box"><img src="img/top-mod.png" alt="TOP" loading="lazy"></div>
+        <span class="name">IES</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-band">
+  <div class="hero-decor" aria-hidden="true">
+    <svg class="fx-leaf drift" style="left:10%; top:20%; width:60px; opacity:.7;" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#fff"/></svg>
+    <svg class="fx-leaf sway" style="right:10%; top:50%; width:50px; opacity:.6; animation-delay:4s;" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#fff"/></svg>
+        <svg class="fx-leaf fall" style="top:67%; left:82%; width:39px; opacity:0.27; animation-duration:28s; animation-delay:4.0s; transform:rotate(8deg);" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#ffffff"/></svg>
+    <svg class="fx-leaf drift" style="top:76%; left:89%; width:56px; opacity:0.13; animation-duration:16s; animation-delay:1.1s; transform:rotate(184deg);" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#ffffff"/></svg>
+    <svg class="fx-leaf drift" style="top:50%; left:59%; width:43px; opacity:0.22; animation-duration:26s; animation-delay:4.3s; transform:rotate(125deg);" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#ffffff"/></svg>
+    <svg class="fx-leaf fall" style="top:35%; left:2%; width:40px; opacity:0.24; animation-duration:24s; animation-delay:7.2s; transform:rotate(47deg);" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#ffffff"/></svg>
+    <span class="fx-dot" style="top:69%; left:10%; width:6px; height:6px; background:#ffffff; opacity:0.36; animation-duration:4s; animation-delay:4.2s;"></span>
+    <span class="fx-dot" style="top:32%; left:95%; width:4px; height:4px; background:#ffffff; opacity:0.35; animation-duration:9s; animation-delay:4.9s;"></span>
+    <span class="fx-dot" style="top:65%; left:50%; width:3px; height:3px; background:#ffffff; opacity:0.47; animation-duration:9s; animation-delay:1.4s;"></span>
+    <span class="fx-dot" style="top:7%; left:80%; width:4px; height:4px; background:#ffffff; opacity:0.28; animation-duration:5s; animation-delay:1.7s;"></span>
+    <span class="fx-dot" style="top:85%; left:90%; width:5px; height:5px; background:#ffffff; opacity:0.53; animation-duration:5s; animation-delay:0.1s;"></span>
+    <span class="fx-dot" style="top:9%; left:64%; width:5px; height:5px; background:#ffffff; opacity:0.69; animation-duration:4s; animation-delay:3.5s;"></span>
+    <span class="fx-dot" style="top:88%; left:64%; width:5px; height:5px; background:#ffffff; opacity:0.57; animation-duration:6s; animation-delay:2.3s;"></span>
+    <span class="fx-dot" style="top:61%; left:17%; width:7px; height:7px; background:#ffffff; opacity:0.34; animation-duration:4s; animation-delay:4.7s;"></span>
+    <span class="fx-dot" style="top:4%; left:39%; width:6px; height:6px; background:#ffffff; opacity:0.28; animation-duration:8s; animation-delay:4.8s;"></span>
+    <span class="fx-dot" style="top:59%; left:36%; width:6px; height:6px; background:#ffffff; opacity:0.34; animation-duration:5s; animation-delay:0.4s;"></span>
+    <span class="fx-dot" style="top:13%; left:20%; width:7px; height:7px; background:#ffffff; opacity:0.37; animation-duration:6s; animation-delay:0.7s;"></span>
+    <span class="fx-dot" style="top:82%; left:67%; width:5px; height:5px; background:#ffffff; opacity:0.65; animation-duration:9s; animation-delay:1.8s;"></span>
+  </div>
+  <div class="container reveal" style="position:relative;">
+    <h2>Consulta por nuestros planes de gestión y manejo integral de residuos</h2>
+    <p>Adaptamos el servicio al tamaño y necesidades de tu empresa, sin inversión en infraestructura especial.</p>
+    <a href="#contacto" class="btn btn-outline" style="border-color:#fff; color:#fff;">Contáctanos</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="hero-decor" aria-hidden="true">
+    <svg class="fx-leaf drift" style="top:20%; left:6%; width:34px; opacity:.14;" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#92C239"/></svg>
+    <svg class="fx-leaf sway" style="top:60%; left:92%; width:28px; opacity:.12; animation-delay:2s;" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#E8B31A"/></svg>
+    <span class="fx-dot" style="top:30%; left:80%; width:4px; height:4px; background:#E8B31A; opacity:.4; animation-duration:7s;"></span>
+    <span class="fx-dot" style="top:70%; left:15%; width:4px; height:4px; background:#E8B31A; opacity:.35; animation-duration:8s; animation-delay:2s;"></span>
+  </div>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src="img/logo.png" alt="Caja Verde" style="height:34px;width:auto;">
+        </div>
+        <p>Gestión integral de residuos para empresas, cumpliendo la normativa vigente, de forma simple y a bajo costo.</p>
+      </div>
+      <div>
+        <h4>Navegación</h4>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="trazaverde.html">TrazaVerde</a></li>
+          <li><a href="#contacto">Contáctanos</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Hablemos</h4>
+        <ul>
+          <li>+56 9 6149 4490</li>
+          <li><a href="mailto:contacto@lacajaverde.cl">contacto@lacajaverde.cl</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span class="year-now">2026</span> Caja Verde. Todos los derechos reservados.</span>
+      <div class="social-row">
+        <a href="#" aria-label="LinkedIn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="#fff"><path d="M6.94 5a2 2 0 11-4-.02 2 2 0 014 .02zM7 8.48H3V21h4V8.48zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-3.96 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.68-2.91V8.48z"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<a class="whatsapp-float" href="https://wa.me/56961494490" aria-label="Escríbenos por WhatsApp" target="_blank" rel="noopener">
+  <svg viewBox="0 0 24 24" fill="#fff"><path d="M20 3.9A10 10 0 003.3 16.4L2 22l5.7-1.3A10 10 0 1020 3.9zm-8 16a8 8 0 01-4.1-1.1l-.3-.2-3 .7.7-2.9-.2-.3A8 8 0 1112 19.9zm4.4-6c-.2-.1-1.4-.7-1.6-.8-.2-.1-.4-.1-.5.1-.2.2-.6.8-.7.9-.1.2-.3.2-.5.1-.2-.1-1-.4-1.9-1.2-.7-.6-1.2-1.4-1.3-1.6-.1-.2 0-.4.1-.5l.4-.4c.1-.1.2-.2.2-.4.1-.1 0-.3 0-.4 0-.1-.5-1.3-.7-1.7-.2-.4-.4-.4-.5-.4h-.5c-.1 0-.4.1-.6.3-.2.2-.8.8-.8 1.9s.8 2.2.9 2.4c.1.2 1.6 2.4 3.8 3.4.5.2.9.4 1.3.5.5.2 1 .1 1.3.1.4-.1 1.4-.6 1.6-1.1.2-.5.2-1 .1-1.1-.1-.1-.2-.2-.4-.3z"/></svg>
+</a>
+
+<script src="main.js"></script>
+</body>
+</html>

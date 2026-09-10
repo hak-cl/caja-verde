@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TrazaVerde | Plataforma de trazabilidad de Caja Verde</title>
+<meta name="description" content="TrazaVerde es la plataforma digital de Caja Verde para centralizar retiros, materiales, trazabilidad, reportes, certificados e indicadores ambientales en un solo lugar.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="grain-grid" aria-hidden="true"></div>
+<div class="ambient-global" aria-hidden="true">
+  <div class="blob" style="width:520px; height:520px; top:2%; right:-8%; background:radial-gradient(circle, rgba(46,111,69,.28), transparent 70%);"></div>
+  <div class="blob" style="width:420px; height:420px; top:55%; left:-8%; background:radial-gradient(circle, rgba(232,179,26,.2), transparent 70%); animation-delay:4s;"></div>
+  <div class="blob" style="width:380px; height:380px; top:85%; left:50%; background:radial-gradient(circle, rgba(62,142,134,.18), transparent 70%); animation-delay:8s;"></div>
+</div>
+
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <img src="img/logo.png" alt="Caja Verde" style="height:38px;width:auto;">
+    </a>
+    <nav class="nav-links">
+      <a href="index.html">Inicio</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="trazaverde.html" aria-current="page">TrazaVerde</a>
+    </nav>
+    <a href="#contacto" class="btn btn-primary">Contáctanos</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" style="min-height:74vh;">
+  <div class="hero-bg" style="background:linear-gradient(135deg,#0E1C13,#1B3624);"></div>
+  <div class="hero-scrim"></div>
+  <div class="hero-decor" aria-hidden="true">
+    <svg class="fx-leaf drift" style="top:20%; left:8%; width:50px; opacity:.18;" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#92C239"/></svg>
+    <svg class="fx-leaf sway" style="top:65%; left:85%; width:36px; opacity:.15; animation-delay:2s;" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#E8B31A"/></svg>
+    <span class="fx-dot" style="top:30%; left:70%; width:5px; height:5px; background:#E8B31A; opacity:.5; animation-duration:7s;"></span>
+    <span class="fx-dot" style="top:70%; left:20%; width:4px; height:4px; background:#E8B31A; opacity:.4; animation-duration:8s; animation-delay:2s;"></span>
+  </div>
+  <div class="hero-inner container">
+    <span class="eyebrow">La plataforma digital de Caja Verde</span>
+    <h1>Trazabilidad, información<br>y respaldo — en un solo lugar</h1>
+    <p class="lede">TrazaVerde centraliza retiros, materiales, destinos, reportes y certificados de tu gestión de residuos, para que nada quede disperso entre planillas, correos o documentos sueltos.</p>
+    <div class="hero-actions" style="margin-top:28px; display:flex; gap:14px; flex-wrap:wrap;">
+      <a href="#contacto" class="btn btn-primary">Quiero acceso a TrazaVerde</a>
+      <a href="#como-funciona" class="btn btn-outline" style="border-color:#fff; color:#fff;">Cómo funciona</a>
+    </div>
+  </div>
+</section>
+
+<div class="rule-brand reveal-brand"><span></span><span></span><span></span><span></span></div>
+
+<!-- CONCEPTO -->
+<section class="stat-band" style="padding:36px 0;">
+  <div class="container" style="gap:18px;">
+    <div class="stat" style="border:none;"><span class="num" style="font-size:1.3rem;">Trazabilidad</span></div>
+    <div class="stat"><span class="num" style="font-size:1.3rem;">Información</span></div>
+    <div class="stat"><span class="num" style="font-size:1.3rem;">Control</span></div>
+    <div class="stat"><span class="num" style="font-size:1.3rem;">Respaldo</span></div>
+  </div>
+</section>
+
+<!-- PREVIEW DEL PRODUCTO -->
+<section class="section section-verde">
+  <div class="hero-decor" aria-hidden="true">
+    <svg class="fx-leaf drift" style="top:15%; left:6%; width:48px; opacity:.3;" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#fff"/></svg>
+    <svg class="fx-leaf sway" style="top:70%; left:90%; width:36px; opacity:.26; animation-delay:2.5s;" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#E8B31A"/></svg>
+    <span class="fx-dot" style="top:30%; left:80%; width:5px; height:5px; background:#fff; opacity:.5; animation-duration:6s;"></span>
+  </div>
+  <div class="container">
+    <div class="section-head center reveal" style="margin-left:auto; margin-right:auto; text-align:center;">
+      <span class="eyebrow" style="color:var(--verde);">La plataforma</span>
+      <h2>Un dashboard con toda tu operación a la vista</h2>
+      <p>Clientes activos, retiros del mes, kilogramos reciclados e impacto ambiental, actualizados en tiempo real.</p>
+    </div>
+    <div class="platform-preview reveal">
+      <img src="img/trazaverde-dashboard.jpg" alt="Dashboard de TrazaVerde con métricas de retiros, reciclaje e impacto ambiental">
+    </div>
+  </div>
+</section>
+
+<!-- REGISTRO Y TRAZABILIDAD -->
+<section class="section section-crema" id="como-funciona">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow" style="color:var(--verde);">Registro y trazabilidad</span>
+      <h2>Cada retiro queda registrado, con todo su contexto</h2>
+      <p>No es solo una fecha: cada retiro se asocia a los datos que realmente importan para tu trazabilidad.</p>
+    </div>
+    <div class="feature-grid reveal-stagger">
+      <div class="feature-card">
+        <div class="ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg></div>
+        <h3>Fecha y estado</h3>
+        <p>Cada servicio queda con su fecha y estado de ejecución.</p>
+      </div>
+      <div class="feature-card">
+        <div class="ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg></div>
+        <h3>Materiales retirados</h3>
+        <p>Qué tipo de residuo se gestionó en cada retiro.</p>
+      </div>
+      <div class="feature-card">
+        <div class="ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v18M3 12h18"/></svg></div>
+        <h3>Cantidad o peso</h3>
+        <p>El volumen gestionado, en kilogramos por servicio.</p>
+      </div>
+      <div class="feature-card">
+        <div class="ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l18-5v12L3 14v-3z"/></svg></div>
+        <h3>Destino</h3>
+        <p>Dónde fue enviado el material tras su retiro.</p>
+      </div>
+      <div class="feature-card">
+        <div class="ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 8v4l3 3"/><circle cx="12" cy="12" r="9"/></svg></div>
+        <h3>Historial</h3>
+        <p>El registro completo de los servicios realizados.</p>
+      </div>
+      <div class="feature-card">
+        <div class="ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg></div>
+        <h3>Trazabilidad completa</h3>
+        <p>Desde el retiro hasta la disposición final.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SEGUIMIENTO DEL DESTINO FINAL -->
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow" style="color:var(--verde);">Seguimiento del destino final</span>
+      <h2>La información no termina cuando el camión se va</h2>
+      <p>TrazaVerde mantiene el recorrido del material después del retiro, para que tengas información verificable de su gestión.</p>
+    </div>
+    <div class="pipeline reveal-stagger">
+      <div class="pl-step">
+        <div class="ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 17h13V6H3v11z"/><path d="M16 10h4l3 3v4h-7"/><circle cx="7.5" cy="17.5" r="1.5"/><circle cx="17.5" cy="17.5" r="1.5"/></svg></div>
+        <h4>Retiro</h4>
+        <p>El camión pasa según lo programado.</p>
+      </div>
+      <div class="pl-arrow">→</div>
+      <div class="pl-step">
+        <div class="ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg></div>
+        <h4>Registro</h4>
+        <p>Queda con fecha, estado y detalle en la plataforma.</p>
+      </div>
+      <div class="pl-arrow">→</div>
+      <div class="pl-step">
+        <div class="ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 8l-9-5-9 5 9 5 9-5z"/><path d="M3 8v8l9 5 9-5V8"/><path d="M12 13v8"/></svg></div>
+        <h4>Material</h4>
+        <p>Se identifica el tipo y la cantidad gestionada.</p>
+      </div>
+      <div class="pl-arrow">→</div>
+      <div class="pl-step">
+        <div class="ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M7 14l4-5 3 3 5-7"/></svg></div>
+        <h4>Transporte</h4>
+        <p>Traslado con transporte autorizado.</p>
+      </div>
+      <div class="pl-arrow">→</div>
+      <div class="pl-step">
+        <div class="ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s7-6.5 7-12a7 7 0 00-14 0c0 5.5 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg></div>
+        <h4>Destino final</h4>
+        <p>Se registra dónde fue enviado el material.</p>
+      </div>
+      <div class="pl-arrow">→</div>
+      <div class="pl-step">
+        <div class="ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6l8-4z"/><path d="M9 12l2 2 4-4"/></svg></div>
+        <h4>Respaldo</h4>
+        <p>Certificado disponible para tu trazabilidad.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- REPORTES -->
+<section class="section section-ink">
+  <div class="hero-decor" aria-hidden="true">
+    <svg class="fx-leaf sway" style="top:15%; left:88%; width:34px; opacity:.15;" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#92C239"/></svg>
+    <span class="fx-dot" style="top:70%; left:10%; width:4px; height:4px; background:#E8B31A; opacity:.4; animation-duration:7s;"></span>
+  </div>
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Reportes</span>
+      <h2 style="margin:14px 0 20px;">De registros sueltos a reportes que se pueden usar</h2>
+      <p style="color:#C9D0C4; font-size:1.05rem; max-width:70ch;">Reportes en tiempo real para mejores decisiones: cantidad total gestionada, composición de residuos, retiros realizados y evolución de tu operación por período.</p>
+    </div>
+    <div class="feature-grid on-dark reveal-stagger">
+      <div class="feature-card">
+        <div class="ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M7 15l4-4 3 3 5-6"/></svg></div>
+        <h3>Cantidad total gestionada</h3>
+        <p>Por período, con su evolución en el tiempo.</p>
+      </div>
+      <div class="feature-card">
+        <div class="ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 3v9l6 3"/></svg></div>
+        <h3>Composición por material</h3>
+        <p>Cuánto se gestionó de cada tipo de residuo.</p>
+      </div>
+      <div class="feature-card">
+        <div class="ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M8 2v4M16 2v4M3 10h18"/></svg></div>
+        <h3>Retiros realizados</h3>
+        <p>Historial consolidado del período informado.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICADO -->
+<section class="section section-crema">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow" style="color:var(--verde);">Certificado de Disposición Final</span>
+      <h2>El respaldo documental de cada período</h2>
+      <p>Así se ve el certificado real: instalación, período informado, residuos gestionados, kilogramos y porcentaje por material, total gestionado y ecoequivalencias.</p>
+    </div>
+    <div class="cert-mock reveal">
+      <div class="cert-topbar"><span></span><span></span><span></span><span></span></div>
+      <div class="cert-head">
+        <div>
+          <span class="eyebrow-sm">Certificado oficial de residuos</span>
+          <h3>Certificado Disposición Final</h3>
+        </div>
+        <div style="text-align:right;">
+          <span class="eyebrow-sm">Caja Verde SPA</span>
+        </div>
+      </div>
+      <div class="cert-body">
+        <span class="example-tag">Ejemplo ilustrativo</span>
+        <div class="cert-meta">
+          <div><span class="m-lbl">Cliente</span><span class="m-val">Empresa Cliente S.A.</span></div>
+          <div><span class="m-lbl">Período cubierto</span><span class="m-val">01/08 – 31/08</span></div>
+          <div><span class="m-lbl">Fecha de emisión</span><span class="m-val">01/09</span></div>
+        </div>
+
+        <table class="cert-table">
+          <thead><tr><th>Residuo</th><th>Kg</th><th>%</th></tr></thead>
+          <tbody>
+            <tr><td>Cartón</td><td>40 kg</td><td>40.0%</td></tr>
+            <tr><td>Papel</td><td>25 kg</td><td>25.0%</td></tr>
+            <tr><td>Plástico</td><td>20 kg</td><td>20.0%</td></tr>
+            <tr><td>Vidrio</td><td>10 kg</td><td>10.0%</td></tr>
+            <tr><td>Aluminio</td><td>5 kg</td><td>5.0%</td></tr>
+          </tbody>
+        </table>
+        <div class="cert-total">Total · 100 kg</div>
+
+        <div class="cert-donut-wrap">
+          <div class="cert-donut" aria-hidden="true"></div>
+          <div class="cert-legend">
+            <div class="li"><span class="sw" style="background:var(--cert-carton);"></span>Cartón — 40.0%</div>
+            <div class="li"><span class="sw" style="background:var(--cert-vidrio);"></span>Vidrio — 10.0%</div>
+            <div class="li"><span class="sw" style="background:var(--cert-papel);"></span>Papel — 25.0%</div>
+            <div class="li"><span class="sw" style="background:var(--cert-aluminio);"></span>Aluminio — 5.0%</div>
+            <div class="li"><span class="sw" style="background:var(--cert-plastico);"></span>Plástico — 20.0%</div>
+          </div>
+        </div>
+
+        <div class="cert-eco-grid">
+          <div class="cert-eco"><div class="ico">🌳</div><div class="val">2</div><div class="lbl">Árboles salvados</div></div>
+          <div class="cert-eco"><div class="ico">🛢️</div><div class="val">8 L</div><div class="lbl">Petróleo ahorrado</div></div>
+          <div class="cert-eco"><div class="ico">💡</div><div class="val">75 kWh</div><div class="lbl">Energía ahorrada</div></div>
+          <div class="cert-eco"><div class="ico">🗑️</div><div class="val">9 kg</div><div class="lbl">Basura evitada</div></div>
+          <div class="cert-eco"><div class="ico">☁️</div><div class="val">11 kg</div><div class="lbl">CO₂ evitado</div></div>
+          <div class="cert-eco"><div class="ico">💧</div><div class="val">3.700 L</div><div class="lbl">Agua ahorrada</div></div>
+        </div>
+
+        <div class="cert-foot"><strong>Certificado de Disposición Final — Caja Verde SPA.</strong> Este documento certifica la trazabilidad completa y disposición responsable de todos los residuos indicados, cumpliendo la normativa de gestión de residuos vigente en Chile.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ECOEQUIVALENCIAS -->
+<section class="section section-verde">
+  <div class="hero-decor" aria-hidden="true">
+    <svg class="fx-leaf drift" style="top:18%; left:88%; width:42px; opacity:.28;" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#fff"/></svg>
+    <svg class="fx-leaf sway" style="top:68%; left:8%; width:34px; opacity:.25; animation-delay:3s;" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#92C239"/></svg>
+    <span class="fx-dot" style="top:40%; left:20%; width:4px; height:4px; background:#fff; opacity:.4; animation-duration:7s;"></span>
+  </div>
+  <div class="container">
+    <div class="section-head center reveal" style="margin-left:auto; margin-right:auto; text-align:center;">
+      <span class="eyebrow" style="color:var(--verde);">Ecoequivalencias e impacto</span>
+      <h2>El kilogramo, traducido a impacto real</h2>
+      <p>Complementamos lo gestionado con una representación del impacto ambiental asociado.</p>
+    </div>
+    <div class="equiv-card reveal">
+      <span class="example-tag">Ejemplo ilustrativo</span>
+      <div class="equiv-grid">
+        <div class="equiv-row">
+          <div class="equiv-box">📄 <span class="n">350 kg</span><span class="u">Papel y cartón</span></div>
+          <span class="equiv-eq">=</span>
+          <div class="equiv-box">🌳 <span class="n">18</span><span class="u">árboles</span></div>
+        </div>
+        <div class="equiv-row">
+          <div class="equiv-box">🍾 <span class="n">120 kg</span><span class="u">Vidrio</span></div>
+          <span class="equiv-eq">=</span>
+          <div class="equiv-box">🗑️ <span class="n">0,05 m³</span><span class="u">basura evitada</span></div>
+        </div>
+        <div class="equiv-row">
+          <div class="equiv-box">📦 <span class="n">80 kg</span><span class="u">Tetra Pak</span></div>
+          <span class="equiv-eq">=</span>
+          <div class="equiv-box">💧 <span class="n">640 L</span><span class="u">agua ahorrada</span></div>
+        </div>
+        <div class="equiv-row">
+          <div class="equiv-box">🥤 <span class="n">200 kg</span><span class="u">Plástico</span></div>
+          <span class="equiv-eq">=</span>
+          <div class="equiv-box">🛢️ <span class="n">65 L</span><span class="u">petróleo ahorrado</span></div>
+        </div>
+        <div class="equiv-row">
+          <div class="equiv-box">🥫 <span class="n">60 kg</span><span class="u">Aluminio</span></div>
+          <span class="equiv-eq">=</span>
+          <div class="equiv-box">💡 <span class="n">210 kWh</span><span class="u">energía ahorrada</span></div>
+        </div>
+        <div class="equiv-row">
+          <div class="equiv-box">🔩 <span class="n">40 kg</span><span class="u">Acero</span></div>
+          <span class="equiv-eq">=</span>
+          <div class="equiv-box">☁️ <span class="n">85 kg</span><span class="u">CO₂ evitado</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- INFORMACIÓN CENTRALIZADA -->
+<section class="section section-crema">
+  <div class="container">
+    <div class="section-head center reveal" style="margin-left:auto; margin-right:auto; text-align:center;">
+      <span class="eyebrow" style="color:var(--verde);">Información centralizada</span>
+      <h2>Todo conecta a un mismo lugar, no a planillas sueltas</h2>
+    </div>
+    <div class="hub-panel reveal">
+      <svg viewBox="0 0 600 460" xmlns="http://www.w3.org/2000/svg">
+        <path id="ln1" d="M300,230 L300,90" fill="none" stroke="#2A3C30" stroke-width="1.5" stroke-dasharray="1 6"/>
+        <path id="ln2" d="M300,230 L420,158" fill="none" stroke="#2A3C30" stroke-width="1.5" stroke-dasharray="1 6"/>
+        <path id="ln3" d="M300,230 L420,302" fill="none" stroke="#2A3C30" stroke-width="1.5" stroke-dasharray="1 6"/>
+        <path id="ln4" d="M300,230 L300,370" fill="none" stroke="#2A3C30" stroke-width="1.5" stroke-dasharray="1 6"/>
+        <path id="ln5" d="M300,230 L180,302" fill="none" stroke="#2A3C30" stroke-width="1.5" stroke-dasharray="1 6"/>
+        <path id="ln6" d="M300,230 L180,158" fill="none" stroke="#2A3C30" stroke-width="1.5" stroke-dasharray="1 6"/>
+
+        <circle r="3.2" fill="#92C239"><animateMotion dur="2.8s" begin="0s" repeatCount="indefinite" path="M300,230 L300,90"/></circle>
+        <circle r="3.2" fill="#3E8E86"><animateMotion dur="3.2s" begin="0.3s" repeatCount="indefinite" path="M300,230 L420,158"/></circle>
+        <circle r="3.2" fill="#E8B31A"><animateMotion dur="3s" begin="0.6s" repeatCount="indefinite" path="M300,230 L420,302"/></circle>
+        <circle r="3.2" fill="#92C239"><animateMotion dur="3.4s" begin="0.9s" repeatCount="indefinite" path="M300,230 L300,370"/></circle>
+        <circle r="3.2" fill="#3E8E86"><animateMotion dur="2.9s" begin="1.2s" repeatCount="indefinite" path="M300,230 L180,302"/></circle>
+        <circle r="3.2" fill="#E8B31A"><animateMotion dur="3.1s" begin="1.5s" repeatCount="indefinite" path="M300,230 L180,158"/></circle>
+
+        <!-- Centro: logo real -->
+        <image href="img/traza.png" x="210" y="180" width="180" height="100"/>
+
+        <!-- Nodos: solo texto, sin íconos -->
+        <text x="300" y="76" text-anchor="middle" class="loop-label">Retiros</text>
+
+        <text x="432" y="153" text-anchor="start" class="loop-label">Residuos</text>
+        <text x="432" y="169" text-anchor="start" class="loop-sub">Materiales y cantidades</text>
+
+        <text x="432" y="297" text-anchor="start" class="loop-label">Trazabilidad</text>
+        <text x="432" y="313" text-anchor="start" class="loop-sub">Recorrido y destino</text>
+
+        <text x="300" y="392" text-anchor="middle" class="loop-label">Reportes</text>
+
+        <text x="168" y="297" text-anchor="end" class="loop-label">Certificados</text>
+        <text x="168" y="313" text-anchor="end" class="loop-sub">Respaldo documental</text>
+
+        <text x="168" y="153" text-anchor="end" class="loop-label">Indicadores</text>
+        <text x="168" y="169" text-anchor="end" class="loop-sub">Ecoequivalencias</text>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- AUDITORÍAS -->
+<section class="section">
+  <div class="container">
+    <div class="trust-badge reveal">
+      <div class="check">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>
+      </div>
+      <div>
+        <h3>Respaldo ante auditorías y fiscalizaciones</h3>
+        <p>Qué residuos fueron gestionados, cuánto, quién hizo el transporte, dónde fueron enviados y qué documentación respalda el proceso — todo disponible cuando tu empresa lo necesite demostrar.</p>
+        <p>Control diario que se consolida mes a mes: cada retiro individual alimenta la información acumulada, el reporte del período y el certificado final.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-band">
+  <div class="hero-decor" aria-hidden="true">
+    <svg class="fx-leaf drift" style="left:10%; top:20%; width:60px; opacity:.7;" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#fff"/></svg>
+    <svg class="fx-leaf sway" style="right:10%; top:50%; width:50px; opacity:.6; animation-delay:4s;" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#fff"/></svg>
+  </div>
+  <div class="container reveal" style="position:relative;" id="contacto">
+    <h2>Lleva la trazabilidad de tu operación a TrazaVerde</h2>
+    <p>Retiros, materiales, destinos, reportes y certificados — centralizados y listos para cuando los necesites.</p>
+    <a href="mailto:contacto@lacajaverde.cl" class="btn btn-outline" style="border-color:#fff; color:#fff;">Contáctanos</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="hero-decor" aria-hidden="true">
+    <svg class="fx-leaf drift" style="top:20%; left:6%; width:34px; opacity:.14;" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#92C239"/></svg>
+    <svg class="fx-leaf sway" style="top:60%; left:92%; width:28px; opacity:.12; animation-delay:2s;" viewBox="0 0 60 60"><path d="M5 55 C5 20 25 5 55 5 C55 40 35 55 5 55 Z" fill="#E8B31A"/></svg>
+    <span class="fx-dot" style="top:30%; left:80%; width:4px; height:4px; background:#E8B31A; opacity:.4; animation-duration:7s;"></span>
+    <span class="fx-dot" style="top:70%; left:15%; width:4px; height:4px; background:#E8B31A; opacity:.35; animation-duration:8s; animation-delay:2s;"></span>
+  </div>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src="img/logo.png" alt="Caja Verde" style="height:34px;width:auto;">
+        </div>
+        <p>TrazaVerde es la plataforma digital de Caja Verde para la trazabilidad de tu gestión de residuos.</p>
+      </div>
+      <div>
+        <h4>Navegación</h4>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="trazaverde.html">TrazaVerde</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Hablemos</h4>
+        <ul>
+          <li>+56 9 6149 4490</li>
+          <li><a href="mailto:contacto@lacajaverde.cl">contacto@lacajaverde.cl</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span class="year-now">2026</span> Caja Verde. Todos los derechos reservados.</span>
+      <div class="social-row">
+        <a href="#" aria-label="LinkedIn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="#fff"><path d="M6.94 5a2 2 0 11-4-.02 2 2 0 014 .02zM7 8.48H3V21h4V8.48zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-3.96 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.68-2.91V8.48z"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<a class="whatsapp-float" href="https://wa.me/56961494490" aria-label="Escríbenos por WhatsApp" target="_blank" rel="noopener">
+  <svg viewBox="0 0 24 24" fill="#fff"><path d="M20 3.9A10 10 0 003.3 16.4L2 22l5.7-1.3A10 10 0 1020 3.9zm-8 16a8 8 0 01-4.1-1.1l-.3-.2-3 .7.7-2.9-.2-.3A8 8 0 1112 19.9zm4.4-6c-.2-.1-1.4-.7-1.6-.8-.2-.1-.4-.1-.5.1-.2.2-.6.8-.7.9-.1.2-.3.2-.5.1-.2-.1-1-.4-1.9-1.2-.7-.6-1.2-1.4-1.3-1.6-.1-.2 0-.4.1-.5l.4-.4c.1-.1.2-.2.2-.4.1-.1 0-.3 0-.4 0-.1-.5-1.3-.7-1.7-.2-.4-.4-.4-.5-.4h-.5c-.1 0-.4.1-.6.3-.2.2-.8.8-.8 1.9s.8 2.2.9 2.4c.1.2 1.6 2.4 3.8 3.4.5.2.9.4 1.3.5.5.2 1 .1 1.3.1.4-.1 1.4-.6 1.6-1.1.2-.5.2-1 .1-1.1-.1-.1-.2-.2-.4-.3z"/></svg>
+</a>
+
+<script src="main.js"></script>
+</body>
+</html>
